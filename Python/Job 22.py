@@ -1,8 +1,8 @@
 print("entrer votre texte")
 texte = input("texte : ")
-print("choisir votre action ( upper / lower / title / clean )")
+print("choisir votre action : \"upper\" \"lower\" \"title\" \"clean\" ")
 action = input("action : ")
-print("choisir votre methode ( simple ou dure )")
+print("choisir votre methode : \"avec\" ou \"sans\" fonction system ")
 methode = input("methode : ")
 
 #la méthode simple et éfficace (avec fonction system )
@@ -13,6 +13,7 @@ def mySimpleLower(texte):
 def mySimpleTitle(texte):
     print(texte.title())
 def mySimpleClean(texte):
+    #remplace les espaces par du vide
     print(texte.replace(" ", ""))
 
 #methode sans les fonction system
@@ -34,6 +35,7 @@ def myUpper(texte):
 def myLower(texte):
     #si il est dans les 26 premieres lettres , il prend la meme lettre dans les 26 dernieres
     #j'ai juste inversé les deux alphabets ... magik
+    #on aurais pus changer les code pour qu'il fasse l'opposé mais c'est plus long
     alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
     result = ''
     for x in texte:
@@ -55,8 +57,8 @@ def myClean(texte):
     print("pas encore fait")
     return result
 
-if methode == "simple":
-    print("methode simple")
+if methode == "avec":
+    print("avec fonction system")
     if action == "upper":
         mySimpleUpper(texte)
 
@@ -75,8 +77,8 @@ if methode == "simple":
 
 
 #la méthode moins simple
-elif methode == "dure":
-    print("methode dure")
+elif methode == "sans":
+    print("sans fonction system")
     if action == "upper":
         result=myUpper(texte)
         print(result)
@@ -93,4 +95,4 @@ elif methode == "dure":
         print("Action non reconnue")
 
 else:
-    print("pas la bonne methode")
+    print("veuillez écrire \"avec\" ou \"sans\"")

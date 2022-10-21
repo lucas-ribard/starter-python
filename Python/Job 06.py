@@ -1,7 +1,7 @@
-temp="pret"
-while temp != "Au revoir":
-    temp = input(">")
-    if temp == "Bonjour":
+texte="pret"
+while texte != "Au revoir":
+    texte = input(">")
+    if texte == "Bonjour":
         print("Bonjour a toi")
-    elif temp == "test":
+    elif texte == "test":
         print("test")

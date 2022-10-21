@@ -1,7 +1,5 @@
-Valeur1 = input('Valeur 1 :')
-Valeur1 = int(Valeur1)
-Valeur2 = input('Valeur 2 :')
-Valeur2 = int(Valeur2)
+Valeur1 = int(input('Valeur 1 :'))
+Valeur2 = int(input('Valeur 2 :'))
 temp = 0
 
 if Valeur1 < Valeur2:

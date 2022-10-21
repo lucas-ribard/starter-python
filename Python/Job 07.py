@@ -7,7 +7,7 @@ while boucle != 100:
     fizz = 0
     buzz = 0
 
-    #test 3 si modulo = 0 alors le nombre est un multiple de 3
+    # test 3 si modulo = 0 alors le nombre est un multiple de 3
     reste = boucle % 3
     if reste == 0:
         fizz = 1
@@ -17,7 +17,7 @@ while boucle != 100:
     if reste == 0:
         buzz = 1
 
-    #repond en fonction de resultat précédents
+    # répond en fonction des résultats précédents
     if fizz == 1 and buzz == 1:
         print("FizzBuzz")
     elif fizz == 1 and buzz == 0:

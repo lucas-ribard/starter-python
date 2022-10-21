@@ -1,7 +1,6 @@
-hauteur = input ("Hauteur")
-hauteur = int(hauteur)
+hauteur = int(input ("Hauteur"))
 
-#-2 pour la premiere et dernieres lignes du triangle faite hors de la boucle
+# -2 pour la premiere et derniere lignes du triangle faite hors de la boucle
 compteur=hauteur-2
 ecart2 = 1
 print(" "*compteur," ","/ \ ")

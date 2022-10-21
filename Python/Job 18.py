@@ -1,4 +1,4 @@
-#nombre a mettre dans la liste
+# nombre à mettre dans la liste
 var1 = int(input("premier chiffre"))
 var2 = int(input("deuxieme chiffre"))
 var3 = int(input("troisieme chiffre"))

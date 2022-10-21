@@ -1,4 +1,4 @@
-#ecrit les chiffre dans une liste
+# écrit les chiffres dans une liste
 list = [int(x) for x in input("entrez 4 chiffres ").split()]
 
 # sépares les éléments dans des variables différentes
@@ -7,7 +7,7 @@ var2 = (list[1])
 var3 = (list[2])
 var4 = (list[3])
 
-#fonction qui affiche les variables
+# fonction qui affiche les variables
 def myFunction(*arguments):
 
 

@@ -1,6 +1,5 @@
-nb_loop = input('nombre de boucle :')
-#transforme nb_loop en int, sinon il n'arrive pas a faire de calculs
-nb_loop = int(nb_loop)
+nb_loop = int(input('nombre de boucle :'))
+
 compteur=0
 
 while compteur != nb_loop+1:

@@ -5,7 +5,7 @@ action = input("action : ")
 print("choisir votre methode : \"avec\" ou \"sans\" fonction system ")
 methode = input("methode : ")
 
-#la méthode simple et éfficace (avec fonction system )
+# la méthode simple et éfficace (avec fonction system )
 def mySimpleUpper(texte):
     print(texte.upper())
 def mySimpleLower(texte):
@@ -16,9 +16,9 @@ def mySimpleClean(texte):
     #remplace les espaces par du vide
     print(texte.replace(" ", ""))
 
-#methode sans les fonction system
+# methode sans les fonctions system
 def myUpper(texte):
-    # si il est dans les 26 premieres lettres , il prend la meme lettre dans les 26 dernieres
+    # si il est dans les 26 premieres lettres, il prend la meme lettre dans les 26 dernieres
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     result = ''
     for x in texte:
@@ -33,9 +33,9 @@ def myUpper(texte):
     #bruh
 
 def myLower(texte):
-    #si il est dans les 26 premieres lettres , il prend la meme lettre dans les 26 dernieres
-    #j'ai juste inversé les deux alphabets ... magik
-    #on aurais pus changer les code pour qu'il fasse l'opposé mais c'est plus long
+    # si il est dans les 26 premieres lettres, il prend la meme lettre dans les 26 dernieres
+    # j'ai juste inversé les deux alphabets ... magik
+    # on aurait pu changer les code pour qu'il fasse l'opposé, mais c'est plus long
     alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
     result = ''
     for x in texte:
